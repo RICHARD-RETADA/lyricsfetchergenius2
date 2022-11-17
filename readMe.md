@@ -5,7 +5,7 @@
 # Installation
 
 ```
-npm install --save lyricsfetchergenius@latest
+npm install --save lyricsfetchergenius2@latest
 ```
 
 # Methods and Examples in Javascript
@@ -15,7 +15,7 @@ npm install --save lyricsfetchergenius@latest
 **Using Typescript**
 
 ```ts
-import lyricsfetchergenius from "lyricsfetchergenius";
+import lyricsfetchergenius from "lyricsfetchergenius2";
 ```
 
 **Using Javascript**
@@ -23,7 +23,7 @@ import lyricsfetchergenius from "lyricsfetchergenius";
 Using GetLyrics:
 
 ```js
-const lyricsfetchergenius = require("lyricsfetchergenius");
+const lyricsfetchergenius = require("lyricsfetchergenius2");
 // example of options 1
 var options = {
   APIKey: "your-genius-api-key",
@@ -60,7 +60,7 @@ async () => {
 Using GetAlbumArt:
 
 ```js
-const lyricsfetchergenius = require("lyricsfetchergenius");
+const lyricsfetchergenius = require("lyricsfetchergenius2");
 // example of options 1
 var options = {
   APIKey: "your-genius-api-key",
@@ -96,7 +96,7 @@ async () => {
 Using GetSong:
 
 ```js
-const lyricsfetchergenius = require("lyricsfetchergenius");
+const lyricsfetchergenius = require("lyricsfetchergenius2");
 // example of options 1
 var options = {
   APIKey: "your-genius-api-key",
@@ -132,7 +132,7 @@ async () => {
 Using GetSongByID:
 
 ```js
-const lyricsfetchergenius = require("lyricsfetchergenius");
+const lyricsfetchergenius = require("lyricsfetchergenius2");
 const songID = "368385"; // just an example
 const APIKey = process.env.APIKEY || "your-genius-api-key";
 async () => {
@@ -148,7 +148,7 @@ async () => {
 Using SearchSong:
 
 ```js
-const lyricsfetchergenius = require("lyricsfetchergenius");
+const lyricsfetchergenius = require("lyricsfetchergenius2");
 // example of options 1
 var options = {
   APIKey: "your-genius-api-key",
